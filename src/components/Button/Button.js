@@ -1,9 +1,7 @@
 import React from "react";
 import './style.css';
 
-/**
- * Свойства компонента Button.
- */
+/** Свойства компонента Button. */
 interface IProps {
 /** Текст Button */
 text?: string;
@@ -15,9 +13,7 @@ onClick?: () => void;
 iconName?: string | null;
 }
 
-/**
- * Компонент Button.
- */
+/** Компонент Button. */
 const Button = ({
   text,
   disabled,
